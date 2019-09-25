@@ -12,7 +12,7 @@ public class factorial
     {
       Scanner keyboard = new Scanner(System.in);
        int number;
-       int factorial = 1;
+       int factorial = 0;
        
 
        System.out.println("Give me a number and i will give you the factorial");  
@@ -25,5 +25,6 @@ public class factorial
        
       }
       System.out.printf("The factorial of %d is %d",number,factorial);
+      
     }
 }
